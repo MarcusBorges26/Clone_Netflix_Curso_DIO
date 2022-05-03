@@ -1,0 +1,38 @@
+:root {
+    --vermelho: rgb(255, 0, 0);
+    --preto: black;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 15px 'Times New Roman', Times, serif;
+}
+
+header div nav a {
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: rgb(153, 153, 153);
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: var(--vermelho);
+}
