@@ -9,6 +9,9 @@
     box-sizing: border-box;
 }
 
+
+/*Estilo para o corpo do site em geral*/
+
 body {
     color: white;
     background-color: var(--preto);
@@ -26,9 +29,10 @@ a:hover {
     color: rgb(153, 153, 153);
 }
 
-.container {
+header .container {
+    margin: 15px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -38,9 +42,24 @@ a:hover {
     color: var(--vermelho);
 }
 
+
+/*Estilo para o file em destaque*/
+
 .filme_destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     font-size: 15px;
     height: 450px;
     background-size: cover;
-    background: url("/img/capa_destaque.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) 100%), url("/img/img3.jpg");
+}
+
+.filme_destaque .sinopse {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
