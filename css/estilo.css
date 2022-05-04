@@ -10,6 +10,7 @@
 }
 
 body {
+    color: white;
     background-color: var(--preto);
     font-family: 15px 'Times New Roman', Times, serif;
 }
@@ -35,4 +36,11 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: var(--vermelho);
+}
+
+.filme_destaque {
+    font-size: 15px;
+    height: 450px;
+    background-size: cover;
+    background: url("/img/capa_destaque.jpg");
 }
