@@ -51,9 +51,11 @@ header .container {
     justify-content: center;
     align-items: flex-start;
     font-size: 15px;
-    height: 700px;
+    height: 500px;
+    background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) 100%), url("/img/img3.jpg");
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) 100%), url("/img/capadestaque.jpg");
 }
 
 .filme_destaque .sinopse {
