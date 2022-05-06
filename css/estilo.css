@@ -51,9 +51,9 @@ header .container {
     justify-content: center;
     align-items: flex-start;
     font-size: 15px;
-    height: 450px;
+    height: 700px;
     background-size: cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) 100%), url("/img/img3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) 100%), url("/img/img3.jpg");
 }
 
 .filme_destaque .sinopse {
@@ -82,5 +82,14 @@ header .container {
 }
 
 .botao i {
-    margin: 7px;
+    margin-right: 7px;
+}
+
+.filme_destaque .container {
+    margin-left: 50px;
+    height: 70%;
+}
+
+.filme_destaque .container p {
+    margin-left: 10px;
 }
